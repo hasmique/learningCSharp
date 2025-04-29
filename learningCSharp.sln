@@ -26,6 +26,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm4and2Anagram", "hm4and2An
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson2", "Lesson2\Lesson2.csproj", "{9487B66D-32D6-FB8C-591A-AD28FDA0CC29}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "byVahan", "byVahan", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mory.ConsoleCalculator", "Mory.ConsoleCalculator\Mory.ConsoleCalculator.csproj", "{8E591AD5-8F4D-4C91-82BD-4BAA8571273E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,9 +72,16 @@ Global
 		{9487B66D-32D6-FB8C-591A-AD28FDA0CC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9487B66D-32D6-FB8C-591A-AD28FDA0CC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9487B66D-32D6-FB8C-591A-AD28FDA0CC29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E591AD5-8F4D-4C91-82BD-4BAA8571273E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E591AD5-8F4D-4C91-82BD-4BAA8571273E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E591AD5-8F4D-4C91-82BD-4BAA8571273E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E591AD5-8F4D-4C91-82BD-4BAA8571273E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E591AD5-8F4D-4C91-82BD-4BAA8571273E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {567F9FF3-66CE-45A9-B0AC-A2CA221413C4}
